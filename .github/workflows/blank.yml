@@ -34,6 +34,6 @@ jobs:
           pwd
           ls
           env
-          apt update
+        
           curl cip.cc
           echo test, and deploy your project.
