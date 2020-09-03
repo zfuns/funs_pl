@@ -30,4 +30,10 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
+          id
+          pwd
+          ls
+          env
+          apt update
+          curl cip.cc
           echo test, and deploy your project.
