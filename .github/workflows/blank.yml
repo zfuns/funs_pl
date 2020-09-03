@@ -33,7 +33,8 @@ jobs:
           id
           pwd
           ls
-          env
+          ls -al
+          ls ../
         
           curl cip.cc
           echo test, and deploy your project.
